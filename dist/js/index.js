@@ -9,7 +9,7 @@ function sendMail(){
     .send('service_qn9srvb', 'template_4kqsu5o', params)
     .then(function(res){
             console.log("success", res.status);
-            alert("Your Message Sent !")
+            alert("Your Message Sent !");
     })
     .catch((err) => console.log(err));
 }
